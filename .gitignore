@@ -1,0 +1,23 @@
+# secrets
+.env
+
+# databases (rebuilt by loader.py / build_index.py)
+*.db
+
+# datasets (large, supplied by the organizers)
+sample-data/
+test-data/
+
+# python
+__pycache__/
+*.pyc
+
+# scratch / one-off scripts
+peek.py
+check_type.py
+check.py
+report.py
+report2.py
+fix_reports.py
+smoke_test.py
+speed_test.py
